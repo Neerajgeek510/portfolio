@@ -65,8 +65,18 @@ h2{
     border-radius:5px;
 }
 
-.project{
-    margin-bottom:15px;
+.project a{
+    width:250px;
+    margin:10px;
+    border-radius:5px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    text-decoration: none;
+    color: rgb(8, 8, 250);
+    justify-content: center;
+}
+.project a:hover{
+    background-color: #4b4949;
+
 }
 
 .certificates img{
@@ -82,4 +92,17 @@ footer{
     background:#111;
     color:white;
     margin-top:30px;
+}
+.download-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 120px;
+} 
+.download-btn:hover{
+    background-color: #444;
 }
